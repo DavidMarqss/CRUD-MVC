@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="icon" href="../icons/home.png" type="image/x-icon">
+    <link rel="icon" href="../icons/imghome.png" type="image/x-icon">
     <style>
         body {
+            background-color: #AEE2F9; 
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -16,8 +17,18 @@
             margin: 0;
         }
 
-        h1 {
+        .logo {
+            background-image: url('../icons/Java-Logo.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 200px; 
+            height: 200px; 
             margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #1f0808; 
         }
 
         .btn-container {
@@ -28,9 +39,11 @@
     </style>
 </head>
 <body>
-    <h1>Crud com Spring</h1>
+    <div class="logo"></div>
+    <h1>CRUD MVC</h1>
+    <br>
     <div class="btn-container">
-        <a class="btn btn-primary" href="/produtos/list">Produtos</a>
+        <a class="btn btn-primary" href="/produto/list">Produtos</a>
     </div>
 </body>
 </html>
