@@ -11,7 +11,7 @@
             <h1>Excluir Produto</h1>
             <a href="/produto/list" class="btn btn-primary">Voltar</a>
             <p>Deseja remover o produto: <strong>"${produto.titulo}"</strong></p>
-            <form action="/rproduto/delete" method="post">
+            <form action="/produto/delete" method="post">
                 <input type="hidden" name="id" value="${produto.id}"/>
                 <button type="submit" class="btn btn-danger">Excluir</button>
             </form>
