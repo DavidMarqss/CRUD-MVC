@@ -6,6 +6,7 @@
         <meta charset="UTF-8" />
         <title>Novo Produto</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="icon" href="../icons/imgproduct.png" type="image/x-icon">
     </head>
     <body>
         <div class="container">

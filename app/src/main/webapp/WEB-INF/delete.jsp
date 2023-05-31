@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <title>Delete</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="icon" href="../icons/imgproduct.png" type="image/x-icon">
     </head>
     <body>
         <div class="container">
