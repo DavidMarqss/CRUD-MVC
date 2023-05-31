@@ -25,7 +25,7 @@ public class ProdutoController {
         return "list";
     }
 
-    @RequestMapping("/list")
+    @RequestMapping("/insert")
     public String insert(Model model) {
         model.addAttribute("produtos", produtoRepo.findAll());
         return "insert";
